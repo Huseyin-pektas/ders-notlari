@@ -186,13 +186,13 @@ if (alınanSayı1>alınanSayı2){
 
 
 // 2.yol
-// var alinanSayi1 = prompt('1. sayiyi gir'); // 10
-// var alinanSayi2 = prompt('2. sayiyi gir'); // 20 DOM
+var alinanSayi1 = prompt('1. sayiyi gir'); // 10
+var alinanSayi2 = prompt('2. sayiyi gir'); // 20 DOM
 
-// if (alinanSayi1 == alinanSayi2) {
-//     ozelp.innerHTML = "sayilar esit"
-// } else if(alinanSayi1 > alinanSayi2){
-//     ozelp.innerHTML = "1. sayi buyuktur " + alinanSayi1
-// } else {
-//     ozelp.innerHTML = "2. sayi buyuktur " + alinanSayi2
-// }
+if (alinanSayi1 == alinanSayi2) {
+    ozelp.innerHTML = "sayilar esit"
+} else if(alinanSayi1 > alinanSayi2){
+    ozelp.innerHTML = "1. sayi buyuktur " + alinanSayi1
+} else {
+    ozelp.innerHTML = "2. sayi buyuktur " + alinanSayi2
+}
